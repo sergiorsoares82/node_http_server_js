@@ -1,9 +1,11 @@
 {
   "name": "node_http_server_js",
+  "type": "module",
   "version": "1.0.0",
-  "main": "index.js",
   "scripts": {
-    "dev": "jest",
+    "dev": "node src/index.js",
+    "test": "jest",
+    "test:watch": "jest --watch",
     "lint:check": "prettier --check .",
     "lint:fix": "prettier --write ."
   },
