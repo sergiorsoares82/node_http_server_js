@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "jest",
+    "dev": "jest",
     "lint:check": "prettier --check .",
     "lint:fix": "prettier --write ."
   },
@@ -21,6 +21,7 @@
   "description": "",
   "devDependencies": {
     "jest": "^29.7.0",
+    "nodemon": "^3.1.10",
     "prettier": "^3.5.3"
   }
 }
