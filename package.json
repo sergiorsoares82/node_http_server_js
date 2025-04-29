@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
     "lint:check": "prettier --check .",
     "lint:fix": "prettier --write ."
   },
@@ -20,6 +20,7 @@
   "homepage": "https://github.com/sergiorsoares82/node_http_server_js#readme",
   "description": "",
   "devDependencies": {
+    "jest": "^29.7.0",
     "prettier": "^3.5.3"
   }
 }
