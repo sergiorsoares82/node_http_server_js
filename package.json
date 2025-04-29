@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint:check": "prettier --check .",
+    "lint:fix": "prettier --write ."
   },
   "repository": {
     "type": "git",
@@ -16,5 +18,8 @@
     "url": "https://github.com/sergiorsoares82/node_http_server_js/issues"
   },
   "homepage": "https://github.com/sergiorsoares82/node_http_server_js#readme",
-  "description": ""
+  "description": "",
+  "devDependencies": {
+    "prettier": "^3.5.3"
+  }
 }
